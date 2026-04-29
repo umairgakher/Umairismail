@@ -119,7 +119,7 @@ export default function HeroSection() {
         {/* Description */}
         <p className="text-slate-400 text-sm sm:text-base max-w-xl leading-relaxed">
           Delivering scalable architectures and AI-augmented production applications with{' '}
-          <span className="text-white font-semibold">2+ years</span> of industry experience.
+          <span className="text-white font-semibold">3+ years</span> of industry experience.
         </p>
 
         {/* CTA Buttons */}
