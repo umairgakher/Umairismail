@@ -7,6 +7,7 @@ const icons: Record<string, string> = {
   'Web & Backend': '🌐',
   'Mobile & AI': '📱',
   'Web3 & DevOps': '⛓️',
+  'Integrations & APIs': '🔌',
 };
 
 export default function SkillsSection() {
@@ -34,7 +35,7 @@ export default function SkillsSection() {
       </div>
       <p className="text-slate-500 text-sm text-center mb-12">Technologies I work with daily</p>
 
-      <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-5 max-w-5xl w-full">
+      <div className="grid sm:grid-cols-2 gap-5 max-w-5xl w-full">
         {skills.map((skill, i) => (
           <div
             key={skill.category}

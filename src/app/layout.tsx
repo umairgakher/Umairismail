@@ -41,7 +41,7 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
-      <body className="antialiased bg-[#020617] text-slate-100">{children}</body>
+      <body className="antialiased bg-[#020617] text-slate-100" suppressHydrationWarning>{children}</body>
     </html>
   );
 }

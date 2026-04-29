@@ -23,13 +23,18 @@ export const skills = [
   },
   {
     category: "Mobile & AI",
-    items: ["React Native / Flutter", "Python / OpenAI API", "Kotlin / .NET (IoT)", "Firebase / Cloud"],
+    items: ["React Native / Flutter", "Python / FastAPI", "OpenAI / AI Agents", "Firebase / Cloud"],
     gradient: "from-purple-500 to-pink-600",
   },
   {
     category: "Web3 & DevOps",
     items: ["Solidity / Web3.js", "Smart Contracts / EVM", "Rainbow Kit / Reown", "AWS / Docker / CI/CD"],
     gradient: "from-cyan-500 to-blue-600",
+  },
+  {
+    category: "Integrations & APIs",
+    items: ["Stripe Payments", "QuickBooks API", "PayPal & Webhooks", "Auth0 / Firebase Auth"],
+    gradient: "from-emerald-500 to-teal-600",
   },
 ];
 

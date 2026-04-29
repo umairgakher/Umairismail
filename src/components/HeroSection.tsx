@@ -73,14 +73,14 @@ export default function HeroSection() {
           <div className="glass rounded-full p-2 w-full h-full relative z-10">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/profile.jpg"
+              src="/profile.jpeg"
               alt="Umair Ismail"
               className="w-full h-full rounded-full object-cover"
             />
           </div>
           {/* Rotating ring */}
           <div className="absolute inset-[-6px] rounded-full border-2 border-transparent"
-               style={{ background: 'linear-gradient(#020617, #020617) padding-box, linear-gradient(135deg, #6366f1, #a855f7, #22d3ee) border-box', animation: 'spin 6s linear infinite' }} />
+            style={{ background: 'linear-gradient(#020617, #020617) padding-box, linear-gradient(135deg, #6366f1, #a855f7, #22d3ee) border-box', animation: 'spin 6s linear infinite' }} />
         </div>
 
         {/* Badge */}
@@ -105,8 +105,8 @@ export default function HeroSection() {
         </h2>
 
         {/* Tech stack pills */}
-        <div className="flex flex-wrap justify-center gap-2 max-w-md">
-          {['MERN', 'Next.js', 'React Native', 'Flutter', 'Web3', 'OpenAI'].map((tech) => (
+        <div className="flex flex-wrap justify-center gap-2 max-w-lg">
+          {['MERN', 'Next.js', 'FastAPI', 'React Native', 'Flutter', 'Web3', 'Stripe', 'QuickBooks'].map((tech) => (
             <span
               key={tech}
               className="px-3 py-1 rounded-full text-xs font-semibold glass border border-white/10 text-slate-300 hover:border-indigo-500/50 hover:text-indigo-300 transition-all duration-200"
