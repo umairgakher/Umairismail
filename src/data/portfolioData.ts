@@ -9,7 +9,7 @@ export const navLinks = [
 ];
 
 export const stats = [
-  { value: "2+", label: "Years XP" },
+  { value: "3+", label: "Years XP" },
   { value: "15+", label: "Total Projects" },
   { value: "40%", label: "Perf. Boost" },
   { value: "AI", label: "AI Specialist" },
@@ -78,6 +78,13 @@ export const experiences = [
 ];
 
 export const projects = [
+  {
+    name: "Silsila",
+    description: "Fintech project for distribution, invoice, purchase taxes, and stock management with an AI backend.",
+    tags: ["React", "Python", "AI", "Fintech"],
+    gradient: "from-cyan-900 to-cyan-500",
+    link: "https://silsila-frontend.vercel.app/",
+  },
   {
     name: "Random-Dex",
     description: "Decentralized exchange using MERN and Web3 with Rainbow Kit wallet integration.",

@@ -4,7 +4,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Umair Ismail | Full Stack, Mobile & AI Engineer",
   description:
-    "Portfolio of Umair Ismail — Full Stack & Mobile Engineer specializing in MERN, Next.js, React Native, Flutter, Web3 & AI. 2+ years delivering production-grade applications.",
+    "Portfolio of Umair Ismail — Full Stack & Mobile Engineer specializing in MERN, Next.js, React Native, Flutter, Web3 & AI. 3+ years delivering production-grade applications.",
   keywords: [
     "Umair Ismail",
     "Full Stack Developer",

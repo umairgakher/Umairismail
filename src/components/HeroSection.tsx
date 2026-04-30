@@ -1,50 +1,9 @@
 'use client';
 
-import { useEffect, useRef } from 'react';
+import { useEffect } from 'react';
 
 export default function HeroSection() {
-  const nameRef = useRef<HTMLHeadingElement>(null);
 
-  // ── Glitch Effect ──
-  useEffect(() => {
-    const el = nameRef.current;
-    if (!el) return;
-    const originalText = 'Umair Ismail';
-    const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789@#$%';
-    let isGlitching = false;
-
-    const runGlitch = () => {
-      if (isGlitching) return;
-      isGlitching = true;
-      let iteration = 0;
-      const interval = setInterval(() => {
-        el.innerText = originalText
-          .split('')
-          .map((char, index) => {
-            if (char === ' ') return ' ';
-            if (index < iteration) return originalText[index];
-            return chars[Math.floor(Math.random() * chars.length)];
-          })
-          .join('');
-        if (iteration >= originalText.length) {
-          clearInterval(interval);
-          el.innerText = originalText;
-          isGlitching = false;
-        }
-        iteration += 1 / 3;
-      }, 25);
-    };
-
-    el.addEventListener('mouseenter', runGlitch);
-    const t1 = setTimeout(runGlitch, 1500);
-    // Repeat glitch every 6s
-    const t2 = setInterval(runGlitch, 6000);
-    return () => {
-      el.removeEventListener('mouseenter', runGlitch);
-      clearTimeout(t1);
-      clearInterval(t2);
-    };
-  }, []);
 
   // ── GSAP entrance animation ──
   useEffect(() => {
@@ -89,10 +48,9 @@ export default function HeroSection() {
           Available for opportunities
         </div>
 
-        {/* Name with Glitch */}
+        {/* Name */}
         <h1
-          ref={nameRef}
-          className="glitch text-5xl sm:text-6xl md:text-7xl font-extrabold tracking-tight gradient-text-white cursor-default select-none leading-none"
+          className="text-5xl sm:text-6xl md:text-7xl font-extrabold tracking-tight gradient-text-white cursor-default select-none leading-none"
         >
           Umair Ismail
         </h1>
@@ -100,8 +58,6 @@ export default function HeroSection() {
         {/* Animated subtitle */}
         <h2 className="text-base sm:text-lg md:text-xl font-normal text-indigo-400 max-w-lg">
           Full Stack & Mobile Engineer
-          <span className="text-slate-500 mx-2">·</span>
-          AI-Powered Developer
         </h2>
 
         {/* Tech stack pills */}

@@ -51,7 +51,7 @@ export default function AboutSection() {
           <div className="space-y-5 text-slate-400 text-sm sm:text-base leading-relaxed">
             <p>
               I am a <span className="text-white font-semibold">Full Stack & Mobile Engineer</span> with over{' '}
-              <span className="text-indigo-400 font-semibold">2.5 years</span> of experience delivering
+              <span className="text-indigo-400 font-semibold">3+ years</span> of experience delivering
               production-grade applications. Currently pursuing a{' '}
               <span className="text-white font-semibold">BS in Computer Science</span> (Expected 2025).
             </p>
