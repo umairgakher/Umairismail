@@ -57,12 +57,12 @@ export default function HeroSection() {
 
         {/* Animated subtitle */}
         <h2 className="text-base sm:text-lg md:text-xl font-normal text-indigo-400 max-w-lg">
-          Full Stack & Mobile Engineer
+          Full Stack, Mobile & Chrome Extension Engineer
         </h2>
 
         {/* Tech stack pills */}
         <div className="flex flex-wrap justify-center gap-2 max-w-lg">
-          {['MERN', 'Next.js', 'FastAPI', 'React Native', 'Flutter', 'Web3', 'Stripe', 'QuickBooks'].map((tech) => (
+          {['MERN', 'Next.js', 'FastAPI', 'React Native', 'Flutter', 'Web3', 'Stripe', 'QuickBooks', 'Chrome Extension'].map((tech) => (
             <span
               key={tech}
               className="px-3 py-1 rounded-full text-xs font-semibold glass border border-white/10 text-slate-300 hover:border-indigo-500/50 hover:text-indigo-300 transition-all duration-200"

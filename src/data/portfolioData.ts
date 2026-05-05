@@ -33,7 +33,7 @@ export const skills = [
   },
   {
     category: "Integrations & APIs",
-    items: ["Stripe Payments", "QuickBooks API", "PayPal & Webhooks", "Auth0 / Firebase Auth"],
+    items: ["Stripe / PayPal", "QuickBooks API", "Chrome Extensions", "Auth0 / Firebase Auth"],
     gradient: "from-emerald-500 to-teal-600",
   },
 ];
@@ -45,6 +45,7 @@ export const experiences = [
     location: "Islamabad",
     period: "Present",
     points: [
+      "Developed a specialized Chrome extension for email document sharing across specific platforms.",
       "Improved DB performance by 40% using indexing, query optimization, and caching.",
       "Delivered 10+ production-grade MERN applications with 99.9% uptime.",
       "Integrated AI-augmented features using OpenAI for intelligent search and automation.",
@@ -175,6 +176,12 @@ export const projects = [
     description: "Intelligent agents using Python and OpenAI for automated content generation.",
     tags: ["Python", "OpenAI", "AI"],
     gradient: "from-slate-900 to-slate-600",
+  },
+  {
+    name: "MailDoc Extension",
+    description: "Specialized Chrome extension for a specific platform that enables seamless document sharing and email integration directly from the browser.",
+    tags: ["Chrome Extension", "Manifest V3", "Email Automation", "Doc Sharing"],
+    gradient: "from-blue-700 to-indigo-900",
   },
 ];
 
